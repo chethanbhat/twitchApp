@@ -1,0 +1,239 @@
+
+body {
+
+  background: #4d0066;
+  color:#fff;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+a {
+
+  color:#fff;
+  text-decoration: none;
+
+}
+
+a:visited, a:hover{
+
+  color:#fff;
+  text-decoration: none;
+
+}
+
+.app {
+
+  width:50%;
+  margin: auto;
+  background-color:#000066;
+
+}
+
+
+header {
+
+  display: flex;
+  flex-direction: column;
+  background-color: #996633;
+  border:1px solid #fff;
+
+
+}
+
+header h1 {
+
+margin:auto;
+padding: 10px;
+
+
+}
+
+header .btn-group {
+
+margin: auto;
+padding: 5px;
+
+}
+
+#online {
+
+  background-color: green;
+  color: #fff;
+  font-size: 1.5em;
+
+}
+
+#offline {
+
+  background-color: red;
+  color: #fff;
+  font-size: 1.5em;
+
+}
+
+#all {
+
+  background-color: #0066ff;
+  color: #fff;
+  font-size: 1.5em;
+
+}
+
+.channel {
+
+  width:100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 5px 2%;
+  flex-flow: row wrap;
+  border:1px solid #fff;
+
+}
+
+.name {
+
+  margin: auto;
+
+}
+
+.status {
+
+  margin: auto;
+    padding: 10px;
+
+}
+
+.round {
+
+  margin: auto;
+  padding: 10px;
+
+}
+
+
+
+.image img {
+
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  padding: 0px;
+
+}
+
+.red {
+
+  background-color: red;
+  width:20px;
+  height: 20px;
+  margin:0px;
+  padding: 0px;
+  border-radius: 50%;
+
+}
+
+.green {
+
+  background-color: green;
+  width:20px;
+  height: 20px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50%;
+
+}
+
+.off {
+
+  background-color: gray;
+  width:20px;
+  height: 20px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50%;
+
+}
+
+@media (max-width: 700px) {
+
+  .app {
+
+    width:100%;
+    margin: auto;
+
+  }
+
+  .channel {
+
+    width:100%;
+    margin: auto;
+    display: flex;
+  }
+
+  .image img {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0px;
+
+  }
+
+  .image  {
+
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .name {
+
+    margin: 0px auto 0px 1px;
+
+  }
+
+  .name h3{
+
+    font-size: 1em;
+
+  }
+
+
+  .status {
+
+    margin: 5px;
+    font-size: 0.8em;
+
+  }
+
+  .round {
+
+    margin: 1px;
+    padding: 0px;
+
+  }
+
+  .red, .green, .off {
+
+    width:10px;
+    height:10px;
+
+  }
+
+
+}
+
+.footer {
+
+  padding: 10px;
+
+}
